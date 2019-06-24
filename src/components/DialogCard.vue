@@ -10,7 +10,7 @@
     </v-card-text>
     <v-card-actions>
       <v-spacer />
-      <DialogActions :actions="actions" ref="actions" outline color="blue-grey" :handle="handle" />
+      <DialogActions :actions="actions" ref="actions" outlined color="blue-grey" :handle="handle" />
     </v-card-actions>
   </v-card>
 </template>

@@ -2,11 +2,11 @@
   <component
     :is="component"
     v-bind="attrs"
-    :flat="flat"
-    :outline="outline"
+    :text="flat"
+    :outlined="outlined"
     :icon="!text && Boolean(icon)"
     :color="color"
-    :round="round"
+    :rounded="rounded"
     :loading="loading"
     :disabled="disabled"
     @click="$emit('click', this)"
@@ -32,8 +32,8 @@ export default {
     flat: Boolean,
     icon: Object,
     loading: Boolean,
-    outline: Boolean,
-    round: Boolean
+    outlined: Boolean,
+    rounded: Boolean
   },
   computed: {
     actionText () {

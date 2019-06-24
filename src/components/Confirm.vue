@@ -1,6 +1,6 @@
 <template>
   <v-card tile>
-    <v-toolbar v-if="Boolean(type)" dark :color="getColor" dense flat>
+    <v-toolbar v-if="Boolean(type)" :color="getColor" dense flat>
       <v-icon v-if="Boolean(getIcon)">{{ getIcon }}</v-icon>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
     </v-toolbar>

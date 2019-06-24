@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar v-if="!!type" dark :color="getColor" dense>
+    <v-toolbar v-if="!!type" :color="getColor" dense>
       <v-icon v-if="!!getIcon">{{ getIcon }}</v-icon>
       <v-toolbar-title class="white--text" v-text="title" />
     </v-toolbar>

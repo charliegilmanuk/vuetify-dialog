@@ -68,7 +68,7 @@
     "vue": "^2.5.22",
     "vue-jest": "^3.0.2",
     "vue-template-compiler": "^2.5.22",
-    "vuetify": "^1.4.0"
+    "vuetify": "^2.0.0-beta.3"
   },
   "jest": {
     "testEnvironment": "node",

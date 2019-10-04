@@ -12,6 +12,7 @@
         v-model="editedValue"
         :label="text"
         @keypress.enter="$emit('submit', editedValue)"
+        @focus="$event.target.select()"
       />
     </DialogCard>
   </div>
